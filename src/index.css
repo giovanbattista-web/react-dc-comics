@@ -100,18 +100,51 @@ header ul li a {
   display: flex;
 }
 
-.column_footer {
-  background-image: url("./assets/img/footer-bg.jpg");
-  width: 50%;
+footer {
+  background-image: url("./public/img/footer-bg1.jpg");
+  background-size: cover;
+}
+
+.footer_alto {
+  background-image: url('./public.img/dc-logo-bg1.png');
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.color_grey {
+  color: grey;
+}
+
+.color_lista {
+  color: white;
 }
 
 .footer_basso {
   height: 100px;
-  background-color: grey;
+  background-color: rgb(97, 91, 91);
   color: white;
 }
 
+.gap {
+  gap: 10px;
+}
+
 .button {
-  background-color: grey;
+  background-color: rgb(97, 91, 91);
   color: white;
+  border: 2px solid rgb(60, 145, 255);
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.color_azzurro_testo {
+  color: rgb(60, 145, 255);
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.padding-top {
+  padding-top: 20px;
 }

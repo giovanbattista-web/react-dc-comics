@@ -8,9 +8,9 @@ const Main = () => {
                                    </div>
                             </div>
                      </div>
-                     <div className="main_basso">
+                     <div className="main_basso gap">
                             <div className="container">
-                                   <div className="padding_foto_main flex">
+                                   <div className="padding_foto_main flex text-right">
                                           <div>
                                                  <img src="./public/img/buy-comics-digital-comics1.png" alt="foto" />
                                                  <h4>DIGITAL COMICS</h4>
