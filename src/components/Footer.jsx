@@ -1,6 +1,8 @@
 const Footer = () => {
   return (
          <footer>
+            <div className="footer_alto">
+             <div className="container">
                <div className="column_footer">
                 <div>
                     <h4>DC COMICS</h4> 
@@ -50,7 +52,14 @@ const Footer = () => {
                     </ul>
                 </div>
                </div>
-         </footer>
+              </div>
+            </div>
+            <div className="footer_basso">
+             <div className="container">
+              <button className="button">SIGN UP NOW!</button>
+             </div>
+            </div>
+        </footer>
           );
 };
 

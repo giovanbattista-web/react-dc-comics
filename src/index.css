@@ -35,6 +35,10 @@ header ul {
   gap: 30px;
 }
 
+.footer_alto ul {
+  list-style-type: none;
+}
+
 header ul li {
   font-weight: bold;
   display: inline-block;
@@ -91,4 +95,20 @@ header ul li a {
 
 .flex {
   display: flex;
+}
+
+.column_footer {
+  background-image: url("./assets/img/footer-bg.jpg");
+  width: 50%;
+}
+
+.footer_basso{
+  height: 100px;
+  background-color: grey;
+  color: white;
+}
+
+.button {
+  background-color: grey;
+  color : white;
 }
