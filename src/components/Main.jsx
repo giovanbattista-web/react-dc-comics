@@ -12,23 +12,23 @@ const Main = () => {
                             <div className="container">
                                    <div className="padding_foto_main flex">
                                           <div>
-                                                 <img src="./public/img/buy-comics-digital-comics.png" alt="foto" />
+                                                 <img src="./public/img/buy-comics-digital-comics1.png" alt="foto" />
                                                  <h4>DIGITAL COMICS</h4>
                                           </div>
                                           <div>
-                                                 <img src="./public/img/buy-comics-merchandise.png" alt="foto" />
+                                                 <img src="./public/img/buy-comics-merchandise1.png" alt="foto" />
                                                  <h4>DC MERCHANDISE</h4>
                                           </div>
                                           <div>
-                                                 <img src="./public/img/buy-comics-subscriptions.png" alt="foto" />
+                                                 <img src="./public/img/buy-comics-subscriptions1.png" alt="foto" />
                                                  <h4>SUBSCRIPTION</h4>
                                           </div>
                                           <div>
-                                                 <img src="./public/img/buy-comics-shop-locator.png" alt="foto" />
+                                                 <img src="./public/img/buy-comics-shop-locator1.png" alt="foto" />
                                                  <h4>COMIC SHOP LOCATOR</h4>
                                           </div>
                                           <div>
-                                                 <img src="./public/img/buy-dc-power-visa.svg" alt="foto" />
+                                                 <img src="./public/img/buy-dc-power-visa1.svg" alt="foto" />
                                                  <h4>DC POWER VISA</h4>
                                           </div>
                                    </div>
