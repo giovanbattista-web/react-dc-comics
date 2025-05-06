@@ -1,10 +1,11 @@
 const Header = () => {
     return <header>
       <div className="container">
-        <div className="col-40">
-            <img src="dc-logo.png" alt="logo" />
+        <div className="col_40">
+            <img className="padding_logo" src="dc-logo.png" alt="logo" />
         </div>
-        <div className="text-right">
+        <div className="text-right padding_lista_header">
+          <div className="col_60">
             <ul>
                 <li><a href="#">CHARACTERS</a></li>
                 <li><a href="#">COMICS</a></li>
@@ -17,6 +18,7 @@ const Header = () => {
                 <li><a href="#">NEWS</a></li>
                 <li><a href="#">SHOP</a></li>
             </ul>
+          </div>
         </div>
       </div>
     </header>;
