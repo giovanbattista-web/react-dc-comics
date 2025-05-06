@@ -1,9 +1,10 @@
 const Header = () => {
     return <header>
-        <div>
+      <div className="container">
+        <div className="col-40">
             <img src="dc-logo.png" alt="logo" />
         </div>
-        <nav>
+        <div className="text-right">
             <ul>
                 <li><a href="#">CHARACTERS</a></li>
                 <li><a href="#">COMICS</a></li>
@@ -16,7 +17,8 @@ const Header = () => {
                 <li><a href="#">NEWS</a></li>
                 <li><a href="#">SHOP</a></li>
             </ul>
-        </nav>
+        </div>
+      </div>
     </header>;
 }
 
