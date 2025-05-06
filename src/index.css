@@ -27,6 +27,7 @@ a {
 
 header {
   background-color: white;
+  height: 80px;
 }
 
 header ul {
@@ -40,7 +41,6 @@ header ul {
 }
 
 header ul li {
-  font-weight: bold;
   display: inline-block;
 }
 
@@ -102,7 +102,7 @@ header ul li a {
   width: 50%;
 }
 
-.footer_basso{
+.footer_basso {
   height: 100px;
   background-color: grey;
   color: white;
@@ -110,5 +110,5 @@ header ul li a {
 
 .button {
   background-color: grey;
-  color : white;
+  color: white;
 }

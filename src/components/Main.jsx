@@ -12,24 +12,24 @@ const Main = () => {
                             <div className="container">
                                    <div className="padding_foto_main flex">
                                           <div>
-                                          <img src="./assets/img/buy-comics-digital-comics.png" alt="foto"/>
-                                          <h4>DIGITAL COMICS</h4>
+                                                 <img src="./public/img/buy-comics-digital-comics.png" alt="foto" />
+
                                           </div>
                                           <div>
-                                          <img src="./assets/img/by-comics-merchandise.png" alt="foto"/>
-                                          <h4>DC MERCHANDISE</h4>
+                                                 <img src="./public/img/buy-comics-merchandise.png" alt="foto" />
+
                                           </div>
                                           <div>
-                                          <img src="./assets/img/buy-comics-subscriptions.png" alt="foto" />
-                                          <h4>SUBSCRIPTION</h4>
+                                                 <img src="./public/img/buy-comics-subscriptions.png" alt="foto" />
+
                                           </div>
                                           <div>
-                                          <img src="./assets/img/buy-comics-shop-locator.png" alt="foto" />
-                                          <h4>COMIC SHOP LOCATOR</h4>
+                                                 <img src="./public/img/buy-comics-shop-locator.png" alt="foto" />
+
                                           </div>
                                           <div>
-                                          <img src=".assets/img/buy-dc-power-visa.png" alt="foto" />
-                                          <h4>DC POWER VISA</h4>
+                                                 <img src="./public/img/buy-dc-power-visa.svg" alt="foto" />
+
                                           </div>
                                    </div>
                             </div>
