@@ -1,5 +1,6 @@
 const Header = () => {
-    return <header>
+    return (
+     <header>
       <div className="container">
         <div className="col_40">
             <img className="padding_logo" src="dc-logo.png" alt="logo" />
@@ -21,7 +22,8 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </header>;
-}
+     </header>
+    );
+};
 
 export default Header;

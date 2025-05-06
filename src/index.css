@@ -40,6 +40,10 @@ header ul li {
   display: inline-block;
 }
 
+.main_basso {
+  display: inline-block;
+}
+
 header ul li a {
   text-decoration: none;
 }
@@ -62,4 +66,29 @@ header ul li a {
 
 .padding_logo {
   padding-top: 15px;
+}
+
+.main_alto {
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+
+.main_basso {
+  height: 120px;
+  background-color: rgb(46, 106, 197);
+  color: white;
+  display: flex;
+}
+
+.padding_testo_main {
+  padding-top: 35px;
+}
+
+.padding_foto_main {
+  padding: 30px;
+}
+
+.flex {
+  display: flex;
 }

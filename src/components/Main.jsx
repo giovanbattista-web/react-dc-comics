@@ -1,7 +1,41 @@
 const Main = () => {
-  return <main>
-             <h2>Content goes here</h2>
-         </main>
+       return (
+              <main>
+                     <div className="main_alto">
+                            <div className="container">
+                                   <div>
+                                          <h4 className="padding_testo_main">Content goes here</h4>
+                                   </div>
+                            </div>
+                     </div>
+                     <div className="main_basso">
+                            <div className="container">
+                                   <div className="padding_foto_main flex">
+                                          <div>
+                                          <img src="./assets/img/buy-comics-digital-comics.png" alt="foto"/>
+                                          <h4>DIGITAL COMICS</h4>
+                                          </div>
+                                          <div>
+                                          <img src="./assets/img/by-comics-merchandise.png" alt="foto"/>
+                                          <h4>DC MERCHANDISE</h4>
+                                          </div>
+                                          <div>
+                                          <img src="./assets/img/buy-comics-subscriptions.png" alt="foto" />
+                                          <h4>SUBSCRIPTION</h4>
+                                          </div>
+                                          <div>
+                                          <img src="./assets/img/buy-comics-shop-locator.png" alt="foto" />
+                                          <h4>COMIC SHOP LOCATOR</h4>
+                                          </div>
+                                          <div>
+                                          <img src=".assets/img/buy-dc-power-visa.png" alt="foto" />
+                                          <h4>DC POWER VISA</h4>
+                                          </div>
+                                   </div>
+                            </div>
+                     </div>
+              </main>
+       );
 };
 
 export default Main;
