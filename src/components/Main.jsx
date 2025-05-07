@@ -1,16 +1,21 @@
+import ListComics from "./ListComics";
+
 const Main = () => {
        return (
               <main>
                      <div className="main_alto">
                             <div className="container">
-                                   <div>
-                                          <h4 className="padding_testo_main">Content goes here</h4>
+                                   <div className="row">
+                                          <div className="col">
+                                                 <ListComics />
+                                                 <h4 className="padding_testo_main"></h4>
+                                          </div>
                                    </div>
                             </div>
                      </div>
                      <div className="main_basso gap">
                             <div className="container">
-                                   <div className="padding_foto_main flex text-right">
+                                   <div className=" column padding_foto_main flex">
                                           <div>
                                                  <img src="./public/img/buy-comics-digital-comics1.png" alt="foto" />
                                                  <h4>DIGITAL COMICS</h4>
