@@ -157,10 +157,11 @@ const ListComics = () => {
         },
     ];
     return <div className="container card ">
-        {comics.map ((comic) => (
-             <ComcicCard title = {comic.series} image = {comic.thumb} />
+        {comics.map((comic) => (
+            <ComcicCard title={comic.series} image={comic.thumb} />
         )
-    )
+        )
+
         }
 
         {/*

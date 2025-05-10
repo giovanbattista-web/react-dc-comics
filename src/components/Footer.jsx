@@ -2,10 +2,10 @@ const Footer = () => {
     return (
         <footer>
             <div className="footer_alto">
-                <div className="container">
+                <div className="container flex-wrap gap padding-top-30">
                     <div className="row">
                         <div className="column_footer">
-                            <div>
+                            <div className="size">
                                 <h4 className="color_lista">DC COMICS</h4>
                                 <ul>
                                     <li><a href="#">Characters</a></li>
@@ -14,12 +14,12 @@ const Footer = () => {
                                     <li><a href="#">TV</a></li>
                                     <li><a href="#">Games</a></li>
                                     <li><a href="#">Videos</a></li>
-                                    <li><a href="#">News</a></li>
+                                    <li className="padding-bottom"><a href="#">News</a></li>
                                 </ul>
-                                <h4 className="color_lista">SHOP</h4>
+                                <h4 className="color_lista padding-bottom">SHOP</h4>
                                 <ul>
                                     <li>Shop DC</li>
-                                    <li>Shop DC Collectibles</li>
+                                    <li className="padding-bottom-40">Shop DC Collectibles</li>
                                 </ul>
                             </div>
                         </div>
@@ -50,21 +50,24 @@ const Footer = () => {
                             <li><a href="#">DC Power Visa</a></li>
                         </ul>
                     </div>
+                    <div className="row">
+                        <img className="img-fluid logo" src="./public/img/dc-logo-bg1.png" alt="" />
+                    </div>
                 </div>
             </div >
             <div className="footer_basso">
                 <div className="container">
                     <div className="col-50">
-                        <button className="button">SIGN-UP NOW!</button>
+                        <button className="button padding-top">SIGN-UP NOW!</button>
                     </div>
                     <div className="text-right">
                         <div className="col-50 flex gap">
-                            <h3 className="color_azzurro_testo padding-top ">FOLLOW US</h3>
-                            <img className="padding_logo" src="./public/img/footer-facebook1.png" alt="foto" />
-                            <img className="padding_logo" src="./public/img/footer-twitter1.png" alt="foto" />
-                            <img className="padding_logo" src="./public/img/footer-youtube1.png" alt="foto" />
-                            <img className="padding_logo" src="./public/img/footer-pinterest1.png" alt="foto" />
-                            <img className="padding_logo" src="./public/img/footer-periscope1.png" alt="foto" />
+                            <h3 className="color_azzurro_testo padding-top margin-top margin-right-250">FOLLOW US</h3>
+                            <img className="social" src="./public/img/footer-facebook1.png" alt="foto" />
+                            <img className="social" src="./public/img/footer-twitter1.png" alt="foto" />
+                            <img className="social" src="./public/img/footer-youtube1.png" alt="foto" />
+                            <img className="social" src="./public/img/footer-pinterest1.png" alt="foto" />
+                            <img className="social" src="./public/img/footer-periscope1.png" alt="foto" />
                         </div>
                     </div>
                 </div>

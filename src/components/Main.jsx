@@ -5,17 +5,20 @@ const Main = () => {
               <main>
                      <div className="main_alto">
                             <div className="container">
-                                   <div className="row">
-                                          <div className="col">
-                                                 <ListComics />
-                                                 <h4 className="padding_testo_main"></h4>
+                                   <div className="row flex flex-wrap">
+                                          <div className="col-16">
+                                                 <div className="card">
+                                                        <div className="card-image flex">
+                                                               <ListComics />
+                                                        </div>
+                                                 </div>
                                           </div>
                                    </div>
                             </div>
                      </div>
                      <div className="main_basso gap">
                             <div className="container">
-                                   <div className=" column padding_foto_main flex">
+                                   <div className="padding_foto_main flex">
                                           <div>
                                                  <img src="./public/img/buy-comics-digital-comics1.png" alt="foto" />
                                                  <h4>DIGITAL COMICS</h4>

@@ -9,15 +9,18 @@ body {
 }
 
 .container {
-  max-width: 1250px;
+  max-width: 950px;
   margin: 0 auto;
   display: flex;
 }
 
+.margin-left-10 {
+  margin-left: 10px;
+}
+
 img {
   max-width: 100%;
-  height: 65px;
-
+  height: 75px;
 }
 
 a {
@@ -27,7 +30,7 @@ a {
 
 header {
   background-color: white;
-  height: 80px;
+  height: 100px;
 }
 
 header ul {
@@ -41,10 +44,6 @@ header ul {
 }
 
 header ul li {
-  display: inline-block;
-}
-
-.main_basso {
   display: inline-block;
 }
 
@@ -62,21 +61,24 @@ header ul li a {
 
 .text-right {
   text-align: right;
-  font-size: 10px;
+  font-size: 9px;
   font-weight: bold;
 }
 
-.padding_lista_header {
-  padding-top: 30px;
+.margin-left-80 {
+  margin-left: 80px;
 }
 
-.padding_logo {
-  padding-top: 15px;
+.padding_lista_header {
+  padding-top: 40px;
+}
+
+.social {
+  padding: 20px 0;
 }
 
 .card {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .img_card {
@@ -91,10 +93,14 @@ header ul li a {
 }
 
 .main_basso {
-  height: 190px;
+  height: 170px;
   background-color: rgb(60, 145, 255);
   color: white;
   display: flex;
+}
+
+.img-fluid {
+  max-width: 100%;
 }
 
 .padding_testo_main {
@@ -113,16 +119,24 @@ header ul li a {
 footer {
   background-image: url("./public/img/footer-bg1.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.footer_alto {
-  background-image: url('./public.img/dc-logo-bg1.png');
+.logo {
+  height: 330px;
+  margin-left: 130px;
+}
+
+.foto_su_background {
+  background-repeat: no-repeat;
+  background-position: right;
   padding-top: 30px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
-.color_grey {
-  color: grey;
+
+.size {
+  width: 100px;
 }
 
 .color_lista {
@@ -136,7 +150,7 @@ footer {
 }
 
 .gap {
-  gap: 10px;
+  gap: 20px;
 }
 
 .button {
@@ -151,10 +165,43 @@ footer {
   color: rgb(60, 145, 255);
 }
 
+.margin-top {
+  margin-top: 10px;
+}
+
 .col-50 {
   width: 50%;
 }
 
+.margin-right-250 {
+  margin-left: 250px;
+}
+
 .padding-top {
-  padding-top: 20px;
+  padding-top: 10px;
+}
+
+.padding-bottom {
+  padding-bottom: 15px;
+}
+
+.padding-bottom-40 {
+  padding-bottom: 40px;
+}
+
+a,
+li {
+  color: grey;
+}
+
+.padding-top-30 {
+  padding-top: 30px;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.col-16 {
+  width: 16%;
 }
