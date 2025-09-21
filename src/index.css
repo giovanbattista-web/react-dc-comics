@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .container {
@@ -14,19 +14,20 @@ body {
   display: flex;
 }
 
-.margin-left-10 {
-  margin-left: 10px;
-}
-
 img {
   max-width: 100%;
   height: 75px;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+.card_image {
+  width: 100%;
+  padding: 10px;
 }
+
+.img_fluid {
+  max-width: 100%;
+}
+
 
 header {
   background-color: white;
@@ -39,10 +40,6 @@ header ul {
   gap: 30px;
 }
 
-.footer_alto ul {
-  list-style-type: none;
-}
-
 header ul li {
   display: inline-block;
 }
@@ -51,40 +48,16 @@ header ul li a {
   text-decoration: none;
 }
 
-.col_40 {
-  width: 40%;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-.col_60 {
-  width: 60%;
+a,
+li {
+  color: grey;
 }
 
-.text-right {
-  text-align: right;
-  font-size: 9px;
-  font-weight: bold;
-}
-
-.margin-left-80 {
-  margin-left: 80px;
-}
-
-.padding_lista_header {
-  padding-top: 40px;
-}
-
-.social {
-  padding: 20px 0;
-}
-
-.card {
-  display: flex;
-}
-
-.img_card {
-  width: 100%;
-  padding: 10px;
-}
 
 .main_alto {
   padding: 30px;
@@ -99,22 +72,6 @@ header ul li a {
   display: flex;
 }
 
-.img-fluid {
-  max-width: 100%;
-}
-
-.padding_testo_main {
-  padding-top: 35px;
-}
-
-.padding_foto_main {
-  gap: 60px;
-  padding: 40px;
-}
-
-.flex {
-  display: flex;
-}
 
 footer {
   background-image: url("./public/img/footer-bg1.jpg");
@@ -122,30 +79,54 @@ footer {
   background-repeat: no-repeat;
 }
 
-.logo {
-  height: 330px;
-  margin-left: 130px;
-}
-
-.foto_su_background {
-  background-repeat: no-repeat;
-  background-position: right;
-  padding-top: 30px;
-  padding-bottom: 100px;
-}
-
-
-.size {
-  width: 100px;
-}
-
-.color_lista {
-  color: white;
+.footer_alto ul {
+  list-style-type: none;
 }
 
 .footer_basso {
   height: 100px;
   background-color: rgb(97, 91, 91);
+  color: white;
+}
+
+
+.col_40 {
+  width: 40%;
+}
+
+.col_60 {
+  width: 60%;
+}
+
+.col_50 {
+  width: 50%;
+}
+
+.col-16 {
+  width: 16%;
+}
+
+
+.text_right {
+  text-align: right;
+  font-size: 9px;
+  font-weight: bold;
+}
+
+.social {
+  padding: 20px 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.logo {
+  height: 330px;
+  margin-left: 130px;
+}
+
+.color_list_footer {
   color: white;
 }
 
@@ -165,43 +146,68 @@ footer {
   color: rgb(60, 145, 255);
 }
 
-.margin-top {
-  margin-top: 10px;
-}
 
-.col-50 {
-  width: 50%;
-}
-
-.margin-right-250 {
-  margin-left: 250px;
-}
-
-.padding-top {
-  padding-top: 10px;
-}
-
-.padding-bottom {
-  padding-bottom: 15px;
-}
-
-.padding-bottom-40 {
-  padding-bottom: 40px;
-}
-
-a,
-li {
-  color: grey;
-}
-
-.padding-top-30 {
-  padding-top: 30px;
-}
-
-.flex-wrap {
+.comics_list {
+  display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.col-16 {
-  width: 16%;
+.comic_card {
+  width: calc(100%/6);
+  height: auto;
+}
+
+.comic_card img {
+  max-width: 100%;
+}
+
+.card_img_comcicCard {
+  height: 140px;
+}
+
+
+.margin_left_10 {
+  margin-left: 10px;
+}
+
+.padding_top_30 {
+  padding-top: 30px;
+}
+
+.padding_top_10 {
+  padding-top: 10px;
+}
+
+.padding_bottom_header {
+  padding-bottom: 21px;
+}
+
+.padding_bottom_40 {
+  padding-bottom: 40px;
+}
+
+.padding_left_150 {
+  padding-left: 150px;
+}
+
+.margin_top_10 {
+  margin-top: 10px;
+}
+
+.padding_photo_main {
+  gap: 60px;
+  padding: 40px;
+}
+
+.padding_list_header {
+  padding-top: 40px;
+}
+
+.padding_left {
+  padding-left: 20px;
+}
+
+.margin_top_20 {
+  margin-top: 20px;
 }

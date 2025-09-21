@@ -156,15 +156,14 @@ const ListComics = () => {
             writers: ["Joëlle Jones"],
         },
     ];
-    return <div className="container card ">
-        {comics.map((comic) => (
-            <ComcicCard title={comic.series} image={comic.thumb} />
-        )
-        )
+    return (
+        <div className="comics_list ">
+            {comics.map((comic) => {
+                return <ComcicCard key={`comic - ${comic.id}`} title={comic.title} image={comic.thumb} />
+            }
+            )}
 
-        }
-
-        {/*
+            {/*
         <ComcicCard title={comics[0].series} image={comics[0].thumb} />
         <ComcicCard title={comics[1].series} image={comics[1].thumb} />
         <ComcicCard title={comics[2].series} image={comics[2].thumb} />
@@ -178,7 +177,9 @@ const ListComics = () => {
         <ComcicCard title={comics[10].series} image={comics[10].thumb} />
         <ComcicCard title={comics[11].series} image={comics[11].thumb} />
         */}
-    </div>
+        </div>
+    )
+
 };
 
 export default ListComics;

@@ -3,9 +3,9 @@ const Header = () => {
     <header>
       <div className="container">
         <div className="col_40">
-          <img className="padding_logo margin-top" src="dc-logo.png" alt="logo" />
+          <img className="padding_logo margin_top_10" src="/img/dc-logo1.png" alt="logo" />
         </div>
-        <div className="text-right padding_lista_header margin-left-10">
+        <div className="text_right padding_list_header margin_left_10">
           <div className="col_60 gap">
             <ul>
               <li><a href="#">CHARACTERS</a></li>
