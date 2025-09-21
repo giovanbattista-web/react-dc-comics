@@ -3,7 +3,7 @@ import ListComics from "./ListComics";
 const Main = () => {
        return (
               <main>
-                     <div className="main_alto">
+                     <div className="main_top">
                             <div className="container">
                                    <div className="row">
                                           <div className="card">
@@ -14,7 +14,7 @@ const Main = () => {
                                    </div>
                             </div>
                      </div>
-                     <div className="main_basso gap">
+                     <div className="main_bottom gap">
                             <div className="container">
                                    <div className="padding_photo_main flex">
                                           <div>

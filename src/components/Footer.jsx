@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <footer>
-            <div className="footer_alto">
+            <div className="footer_top">
                 <div className="container gap padding_top_30">
                     <div className="row">
                         <div className="column_footer">
@@ -55,14 +55,14 @@ const Footer = () => {
                     </div>
                 </div>
             </div >
-            <div className="footer_basso">
+            <div className="footer_bottom">
                 <div className="container">
                     <div className="col_50">
                         <button className="button padding_top">SIGN-UP NOW!</button>
                     </div>
                     <div className="text_right">
                         <div className="col_50 flex gap padding_left_150">
-                            <h3 className="color_azzurro_testo padding_top margin_top_20">FOLLOW US</h3>
+                            <h3 className="color_azure_text padding_top margin_top_20">FOLLOW US</h3>
                             <img className="social" src="./public/img/footer-facebook1.png" alt="foto" />
                             <img className="social" src="./public/img/footer-twitter1.png" alt="foto" />
                             <img className="social" src="./public/img/footer-youtube1.png" alt="foto" />

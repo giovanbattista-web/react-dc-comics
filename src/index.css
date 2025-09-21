@@ -59,13 +59,13 @@ li {
 }
 
 
-.main_alto {
+.main_top {
   padding: 30px;
   background-color: black;
   color: white;
 }
 
-.main_basso {
+.main_bottom {
   height: 170px;
   background-color: rgb(60, 145, 255);
   color: white;
@@ -79,11 +79,11 @@ footer {
   background-repeat: no-repeat;
 }
 
-.footer_alto ul {
+.footer_top ul {
   list-style-type: none;
 }
 
-.footer_basso {
+.footer_bottom {
   height: 100px;
   background-color: rgb(97, 91, 91);
   color: white;
@@ -142,7 +142,7 @@ footer {
   margin-top: 20px;
 }
 
-.color_azzurro_testo {
+.color_azure_text {
   color: rgb(60, 145, 255);
 }
 
